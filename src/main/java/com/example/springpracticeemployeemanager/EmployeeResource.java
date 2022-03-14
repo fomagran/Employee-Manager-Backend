@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/employee")
 public class EmployeeResource {
@@ -48,11 +49,3 @@ public class EmployeeResource {
     }
 
 }
-
-//{
-//        email:"fomagran6@naver.com",
-//        "imageUrl":"https://bootdey.com/img/Content/avatar/avatar1.png",
-//        "jobTitle":"JavaScript",
-//        "name":"Fomagran",
-//        "phone":"3345597544"
-//        }
